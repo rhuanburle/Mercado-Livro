@@ -6,6 +6,7 @@ import com.mercadolivro.controller.response.CustomerResponse
 import com.mercadolivro.extension.toCustomerModel
 import com.mercadolivro.extension.toResponse
 import com.mercadolivro.model.CustomerModel
+import com.mercadolivro.model.PurchaseModel
 import com.mercadolivro.service.CustomerService
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
