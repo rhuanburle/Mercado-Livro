@@ -13,3 +13,7 @@ spring:
     password: "34097166"
   jackson:
     default-property-inclusion: non_null
+
+jwt:
+  secret: 3f677d7e-a2be-4652-9efe-b9a19ffedd5d
+  expiration: 999999
