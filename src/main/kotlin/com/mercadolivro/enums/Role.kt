@@ -1,6 +1,6 @@
 package com.mercadolivro.enums
 
-enum class Profile(val descricription: String) {
+enum class Role(val descricription: String) {
     ADMIN("ADMIN_ROLE"),
     CUSTOMER("CUSTOMER_ROLE")
 }
