@@ -30,8 +30,11 @@ dependencies {
 	implementation("io.springfox:springfox-swagger-ui:2.9.2")
 
 	implementation ("org.springframework.boot:spring-boot-starter-validation")
+
 	runtimeOnly("mysql:mysql-connector-java")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("io.mockk:mockk:1.12.3")
 }
 
 tasks.withType<KotlinCompile> {
